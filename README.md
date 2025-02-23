@@ -31,46 +31,36 @@ Suivez ces étapes pour installer et exécuter le projet localement.
 git clone https://github.com/ton-repo/bus-reservation.git
 cd bus-reservation
 
-2️⃣ Créer un environnement virtuel et l'activer
-bash
-Copy
-
+### 2️⃣ **Créer un environnement virtuel et l'activer**
+```bash
 python -m venv env
 source env/bin/activate  # Sous Linux/macOS
 env\Scripts\activate    # Sous Windows
 
-3️⃣ Installer les dépendances
-bash
-Copy
-
+### 3️⃣ **Installer les dépendances**
+```bash
 pip install -r requirements.txt
 
-4️⃣ Configurer la base de données
-bash
-Copy
-
+### 4️⃣ **Configurer la base de données**
+```bash
 python manage.py migrate
 
-5️⃣ Créer un super utilisateur (admin)
-bash
-Copy
-
+### 5️⃣ **Créer un super utilisateur (admin)**
+```bash
 python manage.py createsuperuser
 
-6️⃣ Lancer le serveur
-bash
-Copy
-
+### 6️⃣ **Lancer le serveur**
+```bash
 python manage.py runserver
 
-7️⃣ Accéder à l'application
+### 7️⃣ **Accéder à l'application**
 
 Ouvrez votre navigateur et accédez à :
 Copy
 
 http://127.0.0.1:8000/
 
-🛠 Technologies utilisées
+## 🛠 **Technologies utilisées**
 
     🐍 Python 3.x
 
@@ -106,9 +96,6 @@ Les contributions sont les bienvenues ! Voici comment contribuer :
 
     Ouvrir une Pull Request
 
-📜 Licence
-
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 💻 Développé avec ❤️ en Django.
 Copy
